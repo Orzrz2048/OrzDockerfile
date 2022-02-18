@@ -12,5 +12,5 @@ RUN apt-get update && apt-get install -y \
     iproute2 \
     openssh-server \
   && service ssh start
-VOLUME ["/home/renzheng/data/docker"]
+VOLUME ["/data"]
 EXPOSE 22
